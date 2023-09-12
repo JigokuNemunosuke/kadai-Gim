@@ -1,0 +1,86 @@
+body {
+    background-image: url(./img/top.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    height: 100%;
+}
+
+.index-contents {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 320px;
+    min-height: 250px;
+    border-radius: 20px;
+}
+
+.title {
+    all: initial;
+    text-align: center;
+}
+
+.title h1 {
+    margin: 10% 0 20% 0;
+    margin-bottom: 10%;
+    
+}
+
+.form-wrap2 {
+    display: inline-block;
+}
+
+.form-wrap {
+    text-align: left;
+}
+
+label, .submit {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.code-form, .pass-form {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    border: 1px solid #CED1D2;
+    background: #F9FAFA;
+    width: 10em;
+}
+
+.code-form:focus {
+    background: #2589d0;
+  }
+
+input[type="submit"] {
+    color: #fff;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    width: 95px;
+    margin:20px 5px;
+    padding: .5em;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 25%), 0 2px 3px -2px rgb(0 0 0 / 15%);
+    background-color: #2589d0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.submit::after {
+    transform: rotate(45deg);
+    width: 5px;
+    height: 5px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    content: '';
+    margin-left: 5px;
+}
+
+.submit:hover {
+    background-color: #1579c0;
+}

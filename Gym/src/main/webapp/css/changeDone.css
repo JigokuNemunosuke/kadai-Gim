@@ -1,0 +1,19 @@
+.done-msg {
+    padding: 2em 0;
+}
+
+.btn-main {
+    margin: 1em;
+    padding: 10px 20px;
+    background-color: #447fff;
+    border:none;
+    color:#fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-main:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+table th {
+    vertical-align: middle;
+    padding: 0 1em;
+}
+
+table td {
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 10px;
+}
+
+.textbox {
+    padding: 8px 10px;
+    border: 1px solid #969da3;
+    border-radius: 3px;
+    color: #333;
+    /* font-size: 1em; */
+    line-height: 1.5;
+}
+
+.textbox::placeholder {
+    color: #999;
+}
+
+select {
+    background-color: #fff;
+}
+
+.btn-back {
+    margin: 1em;
+    padding: 10px 20px;
+    background-color: #fff;
+    border:1px solid #969da3;
+    color:#000000;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.btn-check {
+    margin: 1em;
+    padding: 10px 20px;
+    background-color: #447fff;
+    border:none;
+    color:#fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-check:hover, .btn-back:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
